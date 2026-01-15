@@ -34,9 +34,9 @@ def fillArr(num):
 
 fillArr(number)
 
-def visualize_collatz(arr):
+def visualizeCollatz(arr):
     for i, num in enumerate(arr):
         print("  " * i + f"└─ {num}")
 
-visualize_collatz(collatzArr)
+visualizeCollatz(collatzArr)
 
