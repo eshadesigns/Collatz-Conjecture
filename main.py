@@ -1,7 +1,6 @@
 # store sequence as an array
 collatzArr = []
 
-# empty string
 number = 1
 
 # requests a positive integer input
@@ -16,7 +15,8 @@ while True:
             print("Error! The number you entered is not positive")
     except ValueError: # catches decimal and non-numerical input
         print("Error! Input is not an integer")
-
+        
+# recursive function to form the sequence
 def fillArr(num):
     if num==1:
         collatzArr.append(1)
