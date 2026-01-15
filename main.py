@@ -1,4 +1,4 @@
-# Coln=Noneequence as an array
+# store sequence as an array
 collatzArr = []
 
 # empty string
